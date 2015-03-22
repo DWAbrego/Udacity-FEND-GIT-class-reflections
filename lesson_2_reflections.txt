@@ -1,0 +1,16 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Git creates some hidden files that are used to track different versions of the files in your repository.  If you don't do this, git will not think it has a repository, and it will not track your files.
+
+
+=====
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Working - where you are doing the actual work
+Staging - groups your changes so you can submit them to repository
+Repository - where file versions are stored
+
+I am not sure wht value it offers.
+
+
