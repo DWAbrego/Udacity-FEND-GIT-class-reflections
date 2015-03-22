@@ -1,0 +1,46 @@
+
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+You shorten your search by eliminating a lot of unchanged text.
+
+===============================================================================
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+You would have an easier time remembering how you implemented a fix from years ago.  
+
+===============================================================================
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+cons:
+You may forget to commit when you needed to.  Auto saves would catch this.
+
+pros:
+If you have changed multiple files that are all related to the same fix or update, then you want to commit when you feel it is time.  Auto saving would create multiple commits at regular intervals when you really only need to do a commit for each logical fix.  
+
+===============================================================================
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+If multiple files are related to a single fix or update, then it makes more sense to save them as a unit.  
+
+===============================================================================
+
+How can you use the commands git log and git diff to view the history of files?
+
+Use git log to see comments about what changed.  Use git diff to compare two commits and
+find the specific files that changed.
+
+===============================================================================
+
+How might using version control make you more confident to make changes that could break something?
+
+Version controll would allow you to start over where you broke something.  
+
+===============================================================================
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use git for simple version control to save the contents of my udacity projects
+on my pc.
